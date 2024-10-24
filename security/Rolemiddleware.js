@@ -1,9 +1,7 @@
 const ROLES = {
     CLIENT: "client",
     ADMIN: "admin",
-    FOURNISSEUR: "fournisseur",
-    LABRAIRIE :"labrairie",
-    PARTENAIRE :"partenaire"
+
   };
   
   const inRole = (...roles) =>(req, res, next) => {
